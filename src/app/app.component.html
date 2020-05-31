@@ -1,5 +1,5 @@
 <div class="row customMargin">
-    <div class="col-2" *ngFor="let box of boxes; let sectionIndex = index">
+    <div class="col-2" *ngFor="let box of boxes; let boxIndex = index">
         <div class="imageBox">
             <i *ngIf="box.img" class="fa fa-close" (click)="removeImage(boxIndex)"></i>
             <label class="prev" [attr.for]="box.inputId">
