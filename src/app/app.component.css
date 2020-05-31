@@ -1,0 +1,40 @@
+.prev {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+i{
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+}
+
+.uploadButton {
+    margin-top: 30%;
+    width: 60%;
+    margin-left: 20%;
+    background-color: lightskyblue;
+    border: 2px solid black;
+}
+
+.imageInput {
+    display: none;
+}
+
+.imageBox {
+    height: 150px;
+    border: 1px solid;
+    overflow: hidden;
+}
+
+.customMargin{
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.imagePrev {
+    width: 100%;
+}

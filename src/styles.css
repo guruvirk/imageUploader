@@ -1,0 +1,25 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.center{
+    text-align: center;
+}
+
+.controls-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.controls-row .spacer {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+    
+.ready-for-drop {
+    border: 1px dashed rgb(25, 151, 212);
+    height: 98%;
+    width: 98%;
+    margin-left: auto;
+    margin-top: 1px;
+    margin-right: auto;
+}
